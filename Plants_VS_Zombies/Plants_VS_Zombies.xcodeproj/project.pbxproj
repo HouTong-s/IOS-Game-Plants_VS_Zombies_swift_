@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64F5AC05258F60B100EC6394 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC03258F60B100EC6394 /* Main.storyboard */; };
+		64F5AC07258F60B200EC6394 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC06258F60B200EC6394 /* Assets.xcassets */; };
+		64F5AC0A258F60B200EC6394 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC08258F60B200EC6394 /* LaunchScreen.storyboard */; };
+		64F5AC2B258F61CB00EC6394 /* 草地.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC19258F61CA00EC6394 /* 草地.png */; };
+		64F5AC2E258F61CB00EC6394 /* 向日葵卡.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC1C258F61CA00EC6394 /* 向日葵卡.png */; };
+		64F5AC2F258F61CB00EC6394 /* 豌豆射手卡.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC1D258F61CA00EC6394 /* 豌豆射手卡.png */; };
+		64F5AC30258F61CB00EC6394 /* 土豆地雷1.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC1E258F61CA00EC6394 /* 土豆地雷1.png */; };
+		64F5AC31258F61CB00EC6394 /* 坚果.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC1F258F61CA00EC6394 /* 坚果.png */; };
+		64F5AC32258F61CB00EC6394 /* 双发射手卡.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC20258F61CA00EC6394 /* 双发射手卡.png */; };
+		64F5AC33258F61CB00EC6394 /* 草地块.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC21258F61CA00EC6394 /* 草地块.png */; };
+		64F5AC34258F61CB00EC6394 /* 向日葵.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC22258F61CB00EC6394 /* 向日葵.png */; };
+		64F5AC36258F61CB00EC6394 /* 寒冰射手.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC24258F61CB00EC6394 /* 寒冰射手.png */; };
+		64F5AC37258F61CB00EC6394 /* 寒冰射手卡.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC25258F61CB00EC6394 /* 寒冰射手卡.png */; };
+		64F5AC38258F61CB00EC6394 /* 双发射手.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC26258F61CB00EC6394 /* 双发射手.png */; };
+		64F5AC39258F61CB00EC6394 /* 豌豆射手.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC27258F61CB00EC6394 /* 豌豆射手.png */; };
+		64F5AC3A258F61CB00EC6394 /* 坚果卡.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC28258F61CB00EC6394 /* 坚果卡.png */; };
+		64F5AC3B258F61CB00EC6394 /* 土豆地雷2.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC29258F61CB00EC6394 /* 土豆地雷2.png */; };
+		64F5AC3C258F61CB00EC6394 /* 土豆地雷卡.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC2A258F61CB00EC6394 /* 土豆地雷卡.png */; };
+		64F5AC48258F61EC00EC6394 /* PlantsFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F5AC3E258F61EC00EC6394 /* PlantsFamily.swift */; };
+		64F5AC49258F61EC00EC6394 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F5AC3F258F61EC00EC6394 /* ViewController.swift */; };
+		64F5AC4A258F61EC00EC6394 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F5AC40258F61EC00EC6394 /* AppDelegate.swift */; };
+		64F5AC4B258F61EC00EC6394 /* ZombiesFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F5AC41258F61EC00EC6394 /* ZombiesFamily.swift */; };
+		64F5AC4C258F61EC00EC6394 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F5AC42258F61EC00EC6394 /* SceneDelegate.swift */; };
+		64F5AC4D258F61EC00EC6394 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC43258F61EC00EC6394 /* Actions.sks */; };
+		64F5AC4E258F61EC00EC6394 /* ZombiesGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F5AC44258F61EC00EC6394 /* ZombiesGenerator.swift */; };
+		64F5AC4F258F61EC00EC6394 /* AllLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F5AC45258F61EC00EC6394 /* AllLines.swift */; };
+		64F5AC50258F61EC00EC6394 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC46258F61EC00EC6394 /* GameScene.sks */; };
+		64F5AC51258F61EC00EC6394 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F5AC47258F61EC00EC6394 /* GameScene.swift */; };
+		64F5AC56258F65EF00EC6394 /* 铲子.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC55258F65EF00EC6394 /* 铲子.png */; };
+		64F5AC652590896700EC6394 /* 阳光.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC622590896700EC6394 /* 阳光.png */; };
+		64F5AC662590896700EC6394 /* 寒冰豌豆.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC632590896700EC6394 /* 寒冰豌豆.png */; };
+		64F5AC672590896700EC6394 /* 豌豆.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC642590896700EC6394 /* 豌豆.png */; };
+		64F5AC6F2591EA8D00EC6394 /* 阳光1.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC6E2591EA8D00EC6394 /* 阳光1.png */; };
+		64F5AC742591EDAE00EC6394 /* 背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC732591EDAE00EC6394 /* 背景.png */; };
+		64F5AC7725921C3C00EC6394 /* 暂停.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC7625921C3C00EC6394 /* 暂停.png */; };
+		64F5AC7E2592284400EC6394 /* 普通僵尸.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC7D2592284400EC6394 /* 普通僵尸.png */; };
+		64F5AC86259230D700EC6394 /* 路障僵尸1.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC80259230D700EC6394 /* 路障僵尸1.png */; };
+		64F5AC87259230D700EC6394 /* 路障僵尸2.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC81259230D700EC6394 /* 路障僵尸2.png */; };
+		64F5AC88259230D700EC6394 /* 铁桶僵尸2.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC82259230D700EC6394 /* 铁桶僵尸2.png */; };
+		64F5AC89259230D700EC6394 /* 铁桶僵尸3.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC83259230D700EC6394 /* 铁桶僵尸3.png */; };
+		64F5AC8A259230D700EC6394 /* 路障僵尸3.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC84259230D700EC6394 /* 路障僵尸3.png */; };
+		64F5AC8B259230D700EC6394 /* 铁桶僵尸1.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC85259230D700EC6394 /* 铁桶僵尸1.png */; };
+		64F5AC9725931B0C00EC6394 /* BackGroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AC9625931B0C00EC6394 /* BackGroundMusic.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64F5ABFA258F60B100EC6394 /* Plants_VS_Zombies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plants_VS_Zombies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F5AC04258F60B100EC6394 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64F5AC06258F60B200EC6394 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64F5AC09258F60B200EC6394 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64F5AC0B258F60B200EC6394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64F5AC19258F61CA00EC6394 /* 草地.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "草地.png"; sourceTree = "<group>"; };
+		64F5AC1C258F61CA00EC6394 /* 向日葵卡.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "向日葵卡.png"; sourceTree = "<group>"; };
+		64F5AC1D258F61CA00EC6394 /* 豌豆射手卡.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "豌豆射手卡.png"; sourceTree = "<group>"; };
+		64F5AC1E258F61CA00EC6394 /* 土豆地雷1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "土豆地雷1.png"; sourceTree = "<group>"; };
+		64F5AC1F258F61CA00EC6394 /* 坚果.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "坚果.png"; sourceTree = "<group>"; };
+		64F5AC20258F61CA00EC6394 /* 双发射手卡.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "双发射手卡.png"; sourceTree = "<group>"; };
+		64F5AC21258F61CA00EC6394 /* 草地块.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "草地块.png"; sourceTree = "<group>"; };
+		64F5AC22258F61CB00EC6394 /* 向日葵.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "向日葵.png"; sourceTree = "<group>"; };
+		64F5AC24258F61CB00EC6394 /* 寒冰射手.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "寒冰射手.png"; sourceTree = "<group>"; };
+		64F5AC25258F61CB00EC6394 /* 寒冰射手卡.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "寒冰射手卡.png"; sourceTree = "<group>"; };
+		64F5AC26258F61CB00EC6394 /* 双发射手.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "双发射手.png"; sourceTree = "<group>"; };
+		64F5AC27258F61CB00EC6394 /* 豌豆射手.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "豌豆射手.png"; sourceTree = "<group>"; };
+		64F5AC28258F61CB00EC6394 /* 坚果卡.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "坚果卡.png"; sourceTree = "<group>"; };
+		64F5AC29258F61CB00EC6394 /* 土豆地雷2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "土豆地雷2.png"; sourceTree = "<group>"; };
+		64F5AC2A258F61CB00EC6394 /* 土豆地雷卡.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "土豆地雷卡.png"; sourceTree = "<group>"; };
+		64F5AC3E258F61EC00EC6394 /* PlantsFamily.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantsFamily.swift; sourceTree = "<group>"; };
+		64F5AC3F258F61EC00EC6394 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64F5AC40258F61EC00EC6394 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64F5AC41258F61EC00EC6394 /* ZombiesFamily.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZombiesFamily.swift; sourceTree = "<group>"; };
+		64F5AC42258F61EC00EC6394 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		64F5AC43258F61EC00EC6394 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		64F5AC44258F61EC00EC6394 /* ZombiesGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZombiesGenerator.swift; sourceTree = "<group>"; };
+		64F5AC45258F61EC00EC6394 /* AllLines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllLines.swift; sourceTree = "<group>"; };
+		64F5AC46258F61EC00EC6394 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		64F5AC47258F61EC00EC6394 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		64F5AC55258F65EF00EC6394 /* 铲子.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "铲子.png"; sourceTree = "<group>"; };
+		64F5AC622590896700EC6394 /* 阳光.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "阳光.png"; sourceTree = "<group>"; };
+		64F5AC632590896700EC6394 /* 寒冰豌豆.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "寒冰豌豆.png"; sourceTree = "<group>"; };
+		64F5AC642590896700EC6394 /* 豌豆.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "豌豆.png"; sourceTree = "<group>"; };
+		64F5AC6E2591EA8D00EC6394 /* 阳光1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "阳光1.png"; sourceTree = "<group>"; };
+		64F5AC732591EDAE00EC6394 /* 背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景.png"; sourceTree = "<group>"; };
+		64F5AC7625921C3C00EC6394 /* 暂停.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "暂停.png"; sourceTree = "<group>"; };
+		64F5AC7D2592284400EC6394 /* 普通僵尸.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "普通僵尸.png"; sourceTree = "<group>"; };
+		64F5AC80259230D700EC6394 /* 路障僵尸1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "路障僵尸1.png"; sourceTree = "<group>"; };
+		64F5AC81259230D700EC6394 /* 路障僵尸2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "路障僵尸2.png"; sourceTree = "<group>"; };
+		64F5AC82259230D700EC6394 /* 铁桶僵尸2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "铁桶僵尸2.png"; sourceTree = "<group>"; };
+		64F5AC83259230D700EC6394 /* 铁桶僵尸3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "铁桶僵尸3.png"; sourceTree = "<group>"; };
+		64F5AC84259230D700EC6394 /* 路障僵尸3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "路障僵尸3.png"; sourceTree = "<group>"; };
+		64F5AC85259230D700EC6394 /* 铁桶僵尸1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "铁桶僵尸1.png"; sourceTree = "<group>"; };
+		64F5AC9625931B0C00EC6394 /* BackGroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BackGroundMusic.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64F5ABF7258F60B100EC6394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64F5ABF1258F60B100EC6394 = {
+			isa = PBXGroup;
+			children = (
+				64F5ABFC258F60B100EC6394 /* Plants_VS_Zombies */,
+			);
+			sourceTree = "<group>";
+		};
+		64F5ABFB258F60B100EC6394 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64F5ABFA258F60B100EC6394 /* Plants_VS_Zombies.app */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		64F5ABFC258F60B100EC6394 /* Plants_VS_Zombies */ = {
+			isa = PBXGroup;
+			children = (
+				64F5AC8D2593178900EC6394 /* Music */,
+				64F5AC18258F617000EC6394 /* img */,
+				64F5AC43258F61EC00EC6394 /* Actions.sks */,
+				64F5AC46258F61EC00EC6394 /* GameScene.sks */,
+				64F5AC47258F61EC00EC6394 /* GameScene.swift */,
+				64F5AC40258F61EC00EC6394 /* AppDelegate.swift */,
+				64F5AC42258F61EC00EC6394 /* SceneDelegate.swift */,
+				64F5AC3F258F61EC00EC6394 /* ViewController.swift */,
+				64F5AC03258F60B100EC6394 /* Main.storyboard */,
+				64F5AC06258F60B200EC6394 /* Assets.xcassets */,
+				64F5AC08258F60B200EC6394 /* LaunchScreen.storyboard */,
+				64F5AC0B258F60B200EC6394 /* Info.plist */,
+				64F5AC3E258F61EC00EC6394 /* PlantsFamily.swift */,
+				64F5AC41258F61EC00EC6394 /* ZombiesFamily.swift */,
+				64F5AC45258F61EC00EC6394 /* AllLines.swift */,
+				64F5AC44258F61EC00EC6394 /* ZombiesGenerator.swift */,
+				64F5ABFB258F60B100EC6394 /* Products */,
+			);
+			path = Plants_VS_Zombies;
+			sourceTree = "<group>";
+		};
+		64F5AC18258F617000EC6394 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				64F5AC80259230D700EC6394 /* 路障僵尸1.png */,
+				64F5AC81259230D700EC6394 /* 路障僵尸2.png */,
+				64F5AC84259230D700EC6394 /* 路障僵尸3.png */,
+				64F5AC85259230D700EC6394 /* 铁桶僵尸1.png */,
+				64F5AC82259230D700EC6394 /* 铁桶僵尸2.png */,
+				64F5AC83259230D700EC6394 /* 铁桶僵尸3.png */,
+				64F5AC7D2592284400EC6394 /* 普通僵尸.png */,
+				64F5AC7625921C3C00EC6394 /* 暂停.png */,
+				64F5AC6E2591EA8D00EC6394 /* 阳光1.png */,
+				64F5AC732591EDAE00EC6394 /* 背景.png */,
+				64F5AC55258F65EF00EC6394 /* 铲子.png */,
+				64F5AC19258F61CA00EC6394 /* 草地.png */,
+				64F5AC21258F61CA00EC6394 /* 草地块.png */,
+				64F5AC24258F61CB00EC6394 /* 寒冰射手.png */,
+				64F5AC25258F61CB00EC6394 /* 寒冰射手卡.png */,
+				64F5AC1F258F61CA00EC6394 /* 坚果.png */,
+				64F5AC28258F61CB00EC6394 /* 坚果卡.png */,
+				64F5AC26258F61CB00EC6394 /* 双发射手.png */,
+				64F5AC20258F61CA00EC6394 /* 双发射手卡.png */,
+				64F5AC1E258F61CA00EC6394 /* 土豆地雷1.png */,
+				64F5AC29258F61CB00EC6394 /* 土豆地雷2.png */,
+				64F5AC2A258F61CB00EC6394 /* 土豆地雷卡.png */,
+				64F5AC27258F61CB00EC6394 /* 豌豆射手.png */,
+				64F5AC1D258F61CA00EC6394 /* 豌豆射手卡.png */,
+				64F5AC22258F61CB00EC6394 /* 向日葵.png */,
+				64F5AC1C258F61CA00EC6394 /* 向日葵卡.png */,
+				64F5AC632590896700EC6394 /* 寒冰豌豆.png */,
+				64F5AC642590896700EC6394 /* 豌豆.png */,
+				64F5AC622590896700EC6394 /* 阳光.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		64F5AC8D2593178900EC6394 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				64F5AC9625931B0C00EC6394 /* BackGroundMusic.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64F5ABF9258F60B100EC6394 /* Plants_VS_Zombies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64F5AC0E258F60B200EC6394 /* Build configuration list for PBXNativeTarget "Plants_VS_Zombies" */;
+			buildPhases = (
+				64F5ABF6258F60B100EC6394 /* Sources */,
+				64F5ABF7258F60B100EC6394 /* Frameworks */,
+				64F5ABF8258F60B100EC6394 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Plants_VS_Zombies;
+			productName = appGame1.0;
+			productReference = 64F5ABFA258F60B100EC6394 /* Plants_VS_Zombies.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64F5ABF2258F60B100EC6394 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					64F5ABF9258F60B100EC6394 = {
+						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
+					};
+				};
+			};
+			buildConfigurationList = 64F5ABF5258F60B100EC6394 /* Build configuration list for PBXProject "Plants_VS_Zombies" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64F5ABF1258F60B100EC6394;
+			productRefGroup = 64F5ABFB258F60B100EC6394 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64F5ABF9258F60B100EC6394 /* Plants_VS_Zombies */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64F5ABF8258F60B100EC6394 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F5AC87259230D700EC6394 /* 路障僵尸2.png in Resources */,
+				64F5AC0A258F60B200EC6394 /* LaunchScreen.storyboard in Resources */,
+				64F5AC30258F61CB00EC6394 /* 土豆地雷1.png in Resources */,
+				64F5AC39258F61CB00EC6394 /* 豌豆射手.png in Resources */,
+				64F5AC50258F61EC00EC6394 /* GameScene.sks in Resources */,
+				64F5AC07258F60B200EC6394 /* Assets.xcassets in Resources */,
+				64F5AC652590896700EC6394 /* 阳光.png in Resources */,
+				64F5AC2B258F61CB00EC6394 /* 草地.png in Resources */,
+				64F5AC88259230D700EC6394 /* 铁桶僵尸2.png in Resources */,
+				64F5AC662590896700EC6394 /* 寒冰豌豆.png in Resources */,
+				64F5AC05258F60B100EC6394 /* Main.storyboard in Resources */,
+				64F5AC32258F61CB00EC6394 /* 双发射手卡.png in Resources */,
+				64F5AC6F2591EA8D00EC6394 /* 阳光1.png in Resources */,
+				64F5AC33258F61CB00EC6394 /* 草地块.png in Resources */,
+				64F5AC7E2592284400EC6394 /* 普通僵尸.png in Resources */,
+				64F5AC742591EDAE00EC6394 /* 背景.png in Resources */,
+				64F5AC31258F61CB00EC6394 /* 坚果.png in Resources */,
+				64F5AC34258F61CB00EC6394 /* 向日葵.png in Resources */,
+				64F5AC672590896700EC6394 /* 豌豆.png in Resources */,
+				64F5AC89259230D700EC6394 /* 铁桶僵尸3.png in Resources */,
+				64F5AC9725931B0C00EC6394 /* BackGroundMusic.mp3 in Resources */,
+				64F5AC56258F65EF00EC6394 /* 铲子.png in Resources */,
+				64F5AC8B259230D700EC6394 /* 铁桶僵尸1.png in Resources */,
+				64F5AC8A259230D700EC6394 /* 路障僵尸3.png in Resources */,
+				64F5AC3B258F61CB00EC6394 /* 土豆地雷2.png in Resources */,
+				64F5AC2E258F61CB00EC6394 /* 向日葵卡.png in Resources */,
+				64F5AC36258F61CB00EC6394 /* 寒冰射手.png in Resources */,
+				64F5AC7725921C3C00EC6394 /* 暂停.png in Resources */,
+				64F5AC4D258F61EC00EC6394 /* Actions.sks in Resources */,
+				64F5AC3A258F61CB00EC6394 /* 坚果卡.png in Resources */,
+				64F5AC86259230D700EC6394 /* 路障僵尸1.png in Resources */,
+				64F5AC2F258F61CB00EC6394 /* 豌豆射手卡.png in Resources */,
+				64F5AC38258F61CB00EC6394 /* 双发射手.png in Resources */,
+				64F5AC37258F61CB00EC6394 /* 寒冰射手卡.png in Resources */,
+				64F5AC3C258F61CB00EC6394 /* 土豆地雷卡.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64F5ABF6258F60B100EC6394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F5AC4F258F61EC00EC6394 /* AllLines.swift in Sources */,
+				64F5AC4E258F61EC00EC6394 /* ZombiesGenerator.swift in Sources */,
+				64F5AC51258F61EC00EC6394 /* GameScene.swift in Sources */,
+				64F5AC4C258F61EC00EC6394 /* SceneDelegate.swift in Sources */,
+				64F5AC4A258F61EC00EC6394 /* AppDelegate.swift in Sources */,
+				64F5AC4B258F61EC00EC6394 /* ZombiesFamily.swift in Sources */,
+				64F5AC49258F61EC00EC6394 /* ViewController.swift in Sources */,
+				64F5AC48258F61EC00EC6394 /* PlantsFamily.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64F5AC03258F60B100EC6394 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64F5AC04258F60B100EC6394 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64F5AC08258F60B200EC6394 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64F5AC09258F60B200EC6394 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64F5AC0C258F60B200EC6394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64F5AC0D258F60B200EC6394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64F5AC0F258F60B200EC6394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5A8949Y3Q6;
+				INFOPLIST_FILE = Plants_VS_Zombies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "game-houtong.Plants_VS_Zombies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64F5AC10258F60B200EC6394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5A8949Y3Q6;
+				INFOPLIST_FILE = Plants_VS_Zombies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "game-houtong.Plants_VS_Zombies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64F5ABF5258F60B100EC6394 /* Build configuration list for PBXProject "Plants_VS_Zombies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F5AC0C258F60B200EC6394 /* Debug */,
+				64F5AC0D258F60B200EC6394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64F5AC0E258F60B200EC6394 /* Build configuration list for PBXNativeTarget "Plants_VS_Zombies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F5AC0F258F60B200EC6394 /* Debug */,
+				64F5AC10258F60B200EC6394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64F5ABF2258F60B100EC6394 /* Project object */;
+}
