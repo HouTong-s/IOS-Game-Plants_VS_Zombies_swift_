@@ -1,9 +1,14 @@
 # IOS-Game-Plants_VS_Zombies_swift_
-1、项目选题
+
+MAC电脑直接下载文件夹，然后使用xcode打开，选择iPhone12 Pro Max模拟器运行即可
+
+介绍如下：
+
+1、开发环境
 
 使用SpriteKit的游戏开发（Xcode12）
 
-2、项目内容
+2、游戏内容
 
 游戏内容为植物大战僵尸，只支持iPhone12 Pro Max的屏幕，其他尺寸的手机或者ipad不支持。（sprite kit scene 不便于支持autolayout）
 
