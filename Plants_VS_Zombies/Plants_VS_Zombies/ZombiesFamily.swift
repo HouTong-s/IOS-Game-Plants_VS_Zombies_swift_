@@ -78,6 +78,7 @@ class Zombie
                     speed *= 2
                     slowtime = 0
                     SlowDate = Date()
+                    self.isSlowed = false
                 }
             }
             let len=(alllines?.lines[row].plantsline.plants.count)!
