@@ -126,11 +126,11 @@ class IcePea : Plant
                         if(zombienode.frame.contains(plantnode!.position) == true)
                         {
                             alllines?.lines[row].zombiesline.zombies[i]!.SlowDate = Date()
+                            alllines?.lines[row].zombiesline.zombies[i]!.slowtime = 8
                             if(alllines?.lines[row].zombiesline.zombies[i]!.isSlowed == false)
                             {
                                 alllines?.lines[row].zombiesline.zombies[i]!.isSlowed = true
                                 alllines?.lines[row].zombiesline.zombies[i]!.speed /= 2
-                                alllines?.lines[row].zombiesline.zombies[i]!.slowtime = 8
                             }
                             alllines?.lines[row].zombiesline.zombies[i]!.lifeValue -= 1
                             plantnode?.removeAllActions()
